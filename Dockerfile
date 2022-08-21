@@ -97,5 +97,8 @@ COPY motd motd
 RUN chmod -R g=u /root
 RUN chown root:root /usr/bin/dumpcap
 
+# gogo
+RUN echo 'hi, yysu'
+
 # Running ZSH
 CMD ["zsh"]
